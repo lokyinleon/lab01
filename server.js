@@ -17,7 +17,7 @@ app.use(cors());
 app.set('view engine', 'ejs');
 
 app.get('/', function(req,res) {
-	res.render('getcity');
+	res.end('getcity');
 	//res.json({"ggg":"ggg"}});
 });
 
