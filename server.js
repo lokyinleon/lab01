@@ -17,7 +17,8 @@ app.use(cors());
 app.set('view engine', 'ejs');
 
 app.get('/', function(req,res) {
-	res.json({"ggg":"ggg"}});
+	res.render('getcity');
+	//res.json({"ggg":"ggg"}});
 });
 
 app.get('/weather',function(req,res) {
